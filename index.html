@@ -15,7 +15,7 @@
 
         <div id="app">
 
-            <ul>
+            <ul v-if="emailAddresses.length === 10">
                 <li v-for="(element) in emailAddresses">
                     {{ element }}
                 </li>
